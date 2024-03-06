@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+.container-cardTurno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 20rem;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  margin: 1.5rem;
+  /* background-color: #ff5f5d; */
+  background-color: #3f1e5f;
+  box-shadow: 6px 5px 10px 1.5px black;
+  border-radius: 1rem;
+  
+}
+
+.container-cardTurno ul li {
+  list-style: none;
+  margin:0.2rem 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Mooli", sans-serif;
+}
+
+.container-cardTurno ul li span {
+  color: #f2f2f2;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Mooli", sans-serif;
+}
+
+.container-cardTurno .name-apellido{
+  color: #009EE3;
+}
+
+.btn-seña{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #009EE3;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease-in-out;
+  color: #fff;
+  font-family: "Mooli", sans-serif;
+}
+
+.btn-seña:hover{
+  color: #009EE3;
+  background-color: #fff;
+  cursor: pointer;
+}
+

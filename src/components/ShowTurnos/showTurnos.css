@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+
+.container-showTurnos {
+  /* background: linear-gradient(45deg,#3F7C85, #72F2EB); */
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.title-disponibles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Signika Negative", sans-serif;
+  /* color: #FF5F5D; */
+  color: #3f1e5f;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  text-shadow: 1px 1px 2px rgb(245, 245, 245), 2px 2px 2px rgb(240, 240, 240),
+    3px 3px 2px rgb(245, 245, 245), 3px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* .title-reserved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Signika Negative", sans-serif;
+  color: #3F7C85;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  text-shadow: 1px 1px 2px rgb(245, 245, 245),2px 2px 2px rgb(240, 240, 240),3px 3px 2px rgb(245, 245, 245),3px 4px 4px rgba(0,0,0,0.2)
+} */
+
+.container-turnosDisponibles {
+  /* background-color: #00CCBF; */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+/* .container-showTurnos .container-reserved {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  background: linear-gradient(45deg, #ff5f5d, #00CCBF);
+}
+ */

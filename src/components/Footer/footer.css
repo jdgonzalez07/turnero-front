@@ -1,0 +1,54 @@
+.container-footer{
+    background-color:#3f1e5f; ;
+    min-height: 10vh;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+
+
+.container-footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.container-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-footer li {
+    margin-bottom: 5px;
+}
+
+.container-footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.container-footer a:hover {
+    color: #8446ca;
+}
+
+.container-footerContact ul {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 20px;
+}
+.container-footerContact ul li {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.container-footerContact p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-family: "Mooli", sans-serif;
+}
